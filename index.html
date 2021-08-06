@@ -2,106 +2,167 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVS PROJECT</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EVS PROJECT</title>
+  <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-    <header class="header">
-        <nav class="navbar">
-            <a href="#" class="nav-logo" style="text-transform: capitalize;">Study on nuclear reactor and nuclear catastrophes</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="#home" class="nav-link">HOME</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About the Project</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">SUB-HEAD2</a>
-                </li>
-                <!--<li class="nav-item">
+  <header class="header">
+    <nav class="navbar">
+      <a href="#" class="nav-logo" style="text-transform: capitalize;">Study on nuclear reactor and nuclear
+        catastrophes</a>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#home" class="nav-link">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">Disaster Management</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Contributions</a>
+        </li>
+        <!--<li class="nav-item">
                     <a href="#" class="nav-link">SUB-HEAD3</a>
                 </li>-->
 
-                <li class="nav-item">
-                  <button onclick="toggleTheme('dark');" style="background-color: #0f1114dc;color:white;">Dark</button>
-    
-                  <button onclick="toggleTheme('light');" style="background-color: antiquewhite;">Light</button>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
-    </header>
-    
-    <div class="container" id="home" style=" height: 84vh; 
+        <li class="nav-item">
+          <button onclick="toggleTheme('dark');" style="background-color: #0f1114dc;color:white;">Dark</button>
+
+          <button onclick="toggleTheme('light');" style="background-color: antiquewhite;">Light</button>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container" id="home" style=" height: 84vh; 
    background: url('nuclear2.jpg'); 
     background-repeat: no-repeat;background-position: center;background-size: cover;background-attachment: fixed; overflow: hidden;
       ">
-    </div>
-    
-    
-
-    <div class="container" id="about" style="background-color: azure;">
-        <h1 style="text-align: center; font-size: xx-large; background-color:#0f1114dc;font-style: italic;color:antiquewhite;text-transform:uppercase;"><br>About the Project <br></h2>
-            <br><br>
-            <video src="about.mp4" muted loop autoplay style="height: 350px; display:block;margin: 0 auto;"></video><br><br>
-            <p style="margin:14px; padding: auto;text-align:justify ;font-size:large;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga alias nihil inventore odit quis. Rem, id
-                commodi? Explicabo voluptate laudantium iste, eius at, quidem veritatis quaerat perspiciatis dicta a
-                totam ipsum vero et, nulla quisquam facilis. Porro pariatur omnis facilis non, ut delectus ducimus sequi
-                deserunt cum, nobis repudiandae labore?</p><br><br>
-    </div>
-    
-<div class="container">
-    <h1 style="text-align: center; font-size: xx-large; background-color:#0f1114dc;font-style: italic;color:antiquewhite;width: 100%;"><br>CATEGORIES</h1>
-</div>
-    <div class="main">
-       
-        <br><br>
-        <ul class="cards">
-
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><video src="nuclear2.mp4" muted loop autoplay style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video></div>
-              <div class="card_content">
-                <h2 class="card_title" style="text-align: center;font-size: x-large;">Radioactivity history </h2><br>
-                <!--<p class="card_text">text</p>-->
-                <button class="btn card_btn">Read More</button>
-              </div>
-            </div>
-          </li>
+  </div>
 
 
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><video src="card2.mp4" muted loop autoplay style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video></div>
-              <div class="card_content">
-                <h2 class="card_title" style="text-align: center;font-size: x-large;">Nuclear Energy </h2><br>
-                <!--<p class="card_text">text</p>-->
-                <button class="btn card_btn">Read More</button>
-              </div>
-            </div>
-          </li>
-          <li class="cards_item">
-            <div class="card">
-              <div class="card_image"><video src="nuclear.mp4" muted loop autoplay style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video></div>
-              <div class="card_content">
-                <h2 class="card_title" style="text-align: center;font-size: x-large;">Nuclear Reactor </h2><br>
-                <!--<p class="card_text">text</p>-->
-                <button class="btn card_btn">Read More</button>
-              </div>
-            </div>
-          </li>
-         <!---<li class="cards_item">
+
+  <div class="container" id="about" style="background-color: azure;">
+    <h1
+      style="text-align: center; font-size: xx-large; background-color:#0f1114dc;font-style: italic;color:antiquewhite;text-transform:uppercase;">
+      <br>About the Project <br></h2>
+      <br><br>
+      <video src="about.mp4" muted loop autoplay style="height: 350px; display:block;margin: 0 auto;"></video><br><br>
+      <p style="margin:14px; padding: auto;text-align:justify ;font-size:large;">Lorem, ipsum dolor sit amet consectetur
+        adipisicing elit. Fuga alias nihil inventore odit quis. Rem, id
+        commodi? Explicabo voluptate laudantium iste, eius at, quidem veritatis quaerat perspiciatis dicta a
+        totam ipsum vero et, nulla quisquam facilis. Porro pariatur omnis facilis non, ut delectus ducimus sequi
+        deserunt cum, nobis repudiandae labore?</p><br><br>
+  </div>
+
+  <div class="container">
+    <h1
+      style="text-align: center; font-size: xx-large; background-color:#0f1114dc;font-style: italic;color:antiquewhite;width: 100%;">
+      <br>CATEGORIES
+    </h1>
+  </div>
+  <div class="main">
+
+    <br><br>
+    <ul class="cards">
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><video src="nuclear2.mp4" muted loop autoplay
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video>
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Radioactivity history </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><video src="card2.mp4" muted loop autoplay
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video>
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Nuclear Energy </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><video src="nuclear.mp4" muted loop autoplay
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(103, 105, 94);"></video>
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Nuclear Reactor </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="fukushima.jpg"
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(187, 187, 187);padding:10px;">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Fukushima Daiichi nuclear disaster
+            </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="chernobyl.jpg"
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(187, 187, 187);padding:15px;">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Chernobyl Nuclear Power Plant Accident
+            </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+
+
+
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="windscale.jpg"
+              style="height:290px; width: 370px; display:block;margin: 0 auto;background-color: rgb(187, 187, 187);padding:10px;">
+          </div>
+          <div class="card_content">
+            <h2 class="card_title" style="text-align: center;font-size: x-large;">Windscale Nuclear fire Accident
+            </h2><br>
+            <!--<p class="card_text">text</p>-->
+            <button class="btn card_btn">Read More</button>
+          </div>
+        </div>
+      </li>
+      <!---<li class="cards_item">
             <div class="card">
               <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
               <div class="card_content">
@@ -141,23 +202,23 @@
               </div>
             </div>
           </li>-->
-        </ul>
-      </div>
-<br><br>
-      
+    </ul>
+  </div>
+  <br><br>
 
-    <!--<div class="video">
+
+  <!--<div class="video">
         <video src="nuclear.mp4" muted loop autoplay style="height: 300px; margin-left:30%; margin-right: 30%;"></video>
     </div>-->
 
-<!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script>
       function addDarkmodeWidget() {
         new Darkmode().showWidget();
       }
       window.addEventListener('load', addDarkmodeWidget);
     </script>-->
-    <script src="index.js"></script>
+  <script src="index.js"></script>
 
 
 </body>
